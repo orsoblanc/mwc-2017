@@ -1,0 +1,15 @@
+<header>
+	<div class="container">
+		<nav class="main-nav">
+			<ul>
+			{% for nav in site.data.nav %}
+				<li>
+					<a href="{{site.url}}{{nav.href}}">{{nav.title}}</a>
+				</li>
+			{% endfor %}
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<link href="{{ site.baseurl }}/css/styles.css" rel="stylesheet">

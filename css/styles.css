@@ -1,0 +1,25 @@
+.container {
+  color: #fff;
+  background-color: #159957;
+  background-image: linear-gradient(120deg, #155799, #159957);
+  position: fixed;
+  width: 100%;
+}
+
+.main-nav a {
+  color: #fff;
+}
+
+.main-nav ul {
+  margin: 0px;
+  list-style-type: none;
+}
+.main-nav ul li {
+  float: left;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.main-content {
+  padding-top: 5rem;
+}
