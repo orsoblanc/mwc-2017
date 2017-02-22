@@ -4,6 +4,7 @@
   background-image: linear-gradient(120deg, #155799, #159957);
   position: fixed;
   width: 100%;
+  z-index: 1030;
 }
 
 .main-nav a {
