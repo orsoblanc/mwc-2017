@@ -2,14 +2,26 @@
 	<div class="container">
 		<nav class="main-nav">
 			<ul>
-			{% for nav in site.data.nav %}
-				<li>
+				{% for nav in site.data.nav %}
+				{% if nav.child %}
+				<div class="dropdown nav-item">
+					<li class="dropdown" data-toggle="dropdown">{{nav.title}} </li>
+						<ul class="dropdown-menu">
+							{% for child-nav in nav.child %}
+							<li><a href="{{site.url}}{{child-nav.href}}">{{child-nav.title}}</a></li>
+							{% endfor %}
+						</ul>
+					</div>
+				{% else %}
+
+				<li class="nav-item">
 					<a href="{{site.url}}{{nav.href}}">{{nav.title}}</a>
 				</li>
-			{% endfor %}
-			</ul>
-		</nav>
-	</div>
-</header>
 
-<link href="{{ site.baseurl }}/css/styles.css" rel="stylesheet">
+				{% endif %}
+
+				{% endfor %}
+				</ul>
+			</nav>
+		</div>
+	</header>

@@ -16,7 +16,7 @@
 title: MWC-2017-experience
 email: iamorsoblanc@gmail.com
 description: 
-baseurl:  # the subpath of your site, e.g. /blog
+baseurl: /mwc-2017 # the subpath of your site, e.g. /blog
 url: "https://orsoblanc.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  orsoblanc
 

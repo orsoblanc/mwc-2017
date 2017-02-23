@@ -15,7 +15,7 @@
   margin: 0px;
   list-style-type: none;
 }
-.main-nav ul li {
+.main-nav .nav-item {
   float: left;
   text-decoration: none;
   padding: 1rem;

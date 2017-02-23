@@ -4,3 +4,8 @@
   href: "/mwc-2017/schedule"
 - title: "Contents"
   href: "/mwc-2017/contents/test"
+- title: "Travel"
+  href: "/mwc-2017/travel"
+  child:
+    - title: "London"
+      href: "/mwc-2017/travel/london"
